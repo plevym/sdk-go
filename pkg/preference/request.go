@@ -47,15 +47,33 @@ type DifferentialPricingRequest struct {
 
 // ItemRequest represents a purchased item.
 type ItemRequest struct {
-	ID                string     `json:"id,omitempty"`
-	Title             string     `json:"title,omitempty"`
-	Description       string     `json:"description,omitempty"`
-	PictureURL        string     `json:"picture_url,omitempty"`
-	CategoryID        string     `json:"category_id,omitempty"`
-	CurrencyID        string     `json:"currency_id,omitempty"`
-	UnitPrice         float64    `json:"unit_price,omitempty"`
-	Quantity          int        `json:"quantity,omitempty"`
+	ID                 string                     `json:"id,omitempty"`
+	Title              string                     `json:"title,omitempty"`
+	Description        string                     `json:"description,omitempty"`
+	PictureURL         string                     `json:"picture_url,omitempty"`
+	CategoryID         string                     `json:"category_id,omitempty"`
+	CurrencyID         string                     `json:"currency_id,omitempty"`
+	UnitPrice          float64                    `json:"unit_price,omitempty"`
+	Quantity           int                        `json:"quantity,omitempty"`
+	CategoryDescriptor *CategoryDescriptorRequest `json:"category_descriptor,omitempty"`
+}
+type CategoryDescriptorRequest struct {
+	Passenger *PassengerRequest `json:"passenger,omitempty"`
+	Route     *RouteRequest     `json:"route,omitempty"`
+}
+
+type PassengerRequest struct {
+	FirstName string `json:"first_name,omitempty"`
+	LastName  string `json:"last_name,omitempty"`
+}
+
+type RouteRequest struct {
 	DepartureDateTime *time.Time `json:"departure_date_time,omitempty"`
+	ArrivalDateTime   *time.Time `json:"arrival_date_time,omitempty"`
+
+	Departure   string `json:"departure,omitempty"`
+	Destination string `json:"destination,omitempty"`
+	Company     string `json:"company,omitempty"`
 }
 
 // PayerRequest contains payer information in the preference.
