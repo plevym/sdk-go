@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/mercadopago/sdk-go/pkg/requester"
+	"github.com/plevym/sdk-go/pkg/requester"
 )
 
 var (

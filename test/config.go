@@ -3,7 +3,7 @@ package test
 import (
 	"os"
 
-	"github.com/mercadopago/sdk-go/pkg/config"
+	"github.com/plevym/sdk-go/pkg/config"
 )
 
 func Config() *config.Config {

@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mercadopago/sdk-go/pkg/config"
-	"github.com/mercadopago/sdk-go/pkg/identificationtype"
+	"github.com/plevym/sdk-go/pkg/config"
+	"github.com/plevym/sdk-go/pkg/identificationtype"
 )
 
 func TestIdentificationTypes(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mercadopago/sdk-go/pkg/config"
-	"github.com/mercadopago/sdk-go/pkg/oauth"
+	"github.com/plevym/sdk-go/pkg/config"
+	"github.com/plevym/sdk-go/pkg/oauth"
 )
 
 func TestOauth(t *testing.T) {

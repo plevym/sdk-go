@@ -24,7 +24,7 @@ Fix `differential_pricing_id` type. Now it is `int` instead of `string`.
 
 ## VERSION 1.0.1
 
-Solution for issue [56](https://github.com/mercadopago/sdk-go/issues/56).
+Solution for issue [56](https://github.com/plevym/sdk-go/issues/56).
 
 ## VERSION 1.0.0
 

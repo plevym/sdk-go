@@ -1,8 +1,8 @@
 # Mercado Pago SDK for Go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/mercadopago/sdk-go.svg)](https://pkg.go.dev/github.com/mercadopago/sdk-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/plevym/sdk-go.svg)](https://pkg.go.dev/github.com/plevym/sdk-go)
 
-![mercado-pago-image-7130x2250](https://github.com/mercadopago/sdk-go/assets/84413927/c18102b2-b4ed-46c9-9a83-b5e6a30d659b)
+![mercado-pago-image-7130x2250](https://github.com/plevym/sdk-go/assets/84413927/c18102b2-b4ed-46c9-9a83-b5e6a30d659b)
 
 ## Overview
 
@@ -18,7 +18,7 @@ First time using Mercado Pago? Create your [Mercado Pago account](https://www.me
 
 Install the Mercado Pago SDK for Go:
 ```sh
-$ go install github.com/mercadopago/sdk-go
+$ go install github.com/plevym/sdk-go
 ```
 
 That's it! The Mercado Pago SDK for Go has been successfully installed.
@@ -34,8 +34,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/mercadopago/sdk-go/pkg/config"
-	"github.com/mercadopago/sdk-go/pkg/payment"
+	"github.com/plevym/sdk-go/pkg/config"
+	"github.com/plevym/sdk-go/pkg/payment"
 )
 
 func main() {
@@ -97,7 +97,7 @@ Every package methods returns two variables: response (type of the package) and 
 	}
 ```
 
-For more details on the available methods and request parameters, please refer to the [Go Reference](https://pkg.go.dev/github.com/mercadopago/sdk-go) documentation.
+For more details on the available methods and request parameters, please refer to the [Go Reference](https://pkg.go.dev/github.com/plevym/sdk-go) documentation.
 
 ## 📚 Documentation
 

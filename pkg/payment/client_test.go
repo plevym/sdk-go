@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/mercadopago/sdk-go/pkg/config"
-	"github.com/mercadopago/sdk-go/pkg/internal/httpclient"
+	"github.com/plevym/sdk-go/pkg/config"
+	"github.com/plevym/sdk-go/pkg/internal/httpclient"
 )
 
 var (

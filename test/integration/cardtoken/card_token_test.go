@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mercadopago/sdk-go/pkg/cardtoken"
-	"github.com/mercadopago/sdk-go/pkg/config"
+	"github.com/plevym/sdk-go/pkg/cardtoken"
+	"github.com/plevym/sdk-go/pkg/config"
 )
 
 func TestCardToken(t *testing.T) {

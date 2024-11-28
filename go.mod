@@ -1,5 +1,5 @@
-module github.com/mercadopago/sdk-go
+module github.com/plevym/sdk-go
 
-go 1.18.0
+go 1.23.3
 
 require github.com/google/uuid v1.5.0

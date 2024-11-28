@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/mercadopago/sdk-go/pkg/config"
-	"github.com/mercadopago/sdk-go/pkg/internal/httpclient"
+	"github.com/plevym/sdk-go/pkg/config"
+	"github.com/plevym/sdk-go/pkg/internal/httpclient"
 )
 
 const url = "https://api.mercadopago.com/v1/card_tokens"
