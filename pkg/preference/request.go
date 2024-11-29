@@ -68,8 +68,8 @@ type PassengerRequest struct {
 }
 
 type RouteRequest struct {
-	DepartureDateTime *time.Time `json:"departure_date_time,omitempty"`
-	ArrivalDateTime   *time.Time `json:"arrival_date_time,omitempty"`
+	DepartureDateTime string `json:"departure_date_time,omitempty"`
+	ArrivalDateTime   string `json:"arrival_date_time,omitempty"`
 
 	Departure   string `json:"departure,omitempty"`
 	Destination string `json:"destination,omitempty"`
